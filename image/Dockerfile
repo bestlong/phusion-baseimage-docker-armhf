@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM multiarch/ubuntu-core:armhf-bionic
 MAINTAINER Phusion <info@phusion.nl>
 
 COPY . /bd_build
